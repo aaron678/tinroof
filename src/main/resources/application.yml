@@ -1,0 +1,19 @@
+server:
+    port: 8086
+    servlet:
+        contextPath: /calendar
+
+spring:
+    jpa:
+        show-sql: true
+    main:
+        banner-mode: "off"
+    datasource:
+        platform: h2
+        driverClassName: org.h2.Driver
+        url: jdbc:h2:mem:test;MODE=PostgreSQL
+
+logging:
+    level:
+        org:
+            springframework: INFO
