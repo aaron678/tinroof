@@ -1,14 +1,19 @@
-#####To run teh Tin Roof code challenge solution
+#####To run the Tin Roof code challenge solution
 
 1. Have java, maven and curl installed on your computer.
 2. From my github, download the challenge repository to your local computer.
 3. Open a terminal program.
 4. Change directories into the challenge directory.
 5. At the command prompt run
-   mvn spring-boot:run
+   >mvn spring-boot:run
 6. Run some of the curl commands below in another terminal window. 
 
-#####Manual tests commands from command line
+# To run all tests
+1. Make sure you have opened a terminal program and are in the challenge director
+2. From the command line run
+   >mvn test
+   
+#####Manual curl tests commands from command line
 
 GET all Calendars
 
