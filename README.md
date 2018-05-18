@@ -1,3 +1,6 @@
+#####Description
+Used Spring Initializr to create a Spring Boot application with JPA/Hibernate for persistence and H2 for an in-memory database. Used Spring Data JPA and Spring Boot Test to create integration tests.
+
 #####To run the Tin Roof code challenge solution
 
 1. Have java, maven and curl installed on your computer.
