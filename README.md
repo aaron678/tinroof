@@ -1,15 +1,15 @@
 #####To run the Tin Roof code challenge solution
 
 1. Have java, maven and curl installed on your computer.
-2. From my github, download the challenge repository to your local computer.
+2. From my github, download the tinroof-master repository to your local computer.
 3. Open a terminal program.
-4. Change directories into the challenge directory.
+4. Change directories into the tinroof-master directory.
 5. At the command prompt run
    >mvn spring-boot:run
 6. Run some of the curl commands below in another terminal window. 
 
 # To run all tests
-1. Make sure you have opened a terminal program and are in the challenge director
+1. Make sure you have opened a terminal program and are in the tinroof-master directory.
 2. From the command line run
    >mvn test
    
