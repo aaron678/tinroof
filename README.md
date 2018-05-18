@@ -1,4 +1,4 @@
-#####Description
+##### Description
 
 Used Spring Initializr to create a Spring Boot application with JPA/Hibernate for persistence and H2 for an in-memory database. Used Spring Data JPA and Spring Boot Test to create integration tests.
 
@@ -12,12 +12,12 @@ Used Spring Initializr to create a Spring Boot application with JPA/Hibernate fo
    >mvn spring-boot:run
 6. Run some of the curl commands below in another terminal window. 
 
-# To run all tests
+###### To run all tests
 1. Make sure you have opened a terminal program and are in the tinroof-master directory.
 2. From the command line run
    >mvn test
    
-#####Manual curl tests commands from command line
+##### Manual curl tests commands from command line
 
 GET all Calendars
 
