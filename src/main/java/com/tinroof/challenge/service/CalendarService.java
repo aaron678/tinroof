@@ -1,14 +1,11 @@
 package com.tinroof.challenge.service;
 
 import com.tinroof.challenge.model.Calendar;
-import java.util.List;
 
 import com.tinroof.challenge.repository.CalendarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.http.ResponseEntity;
-import org.springframework.jdbc.core.BeanPropertyRowMapper;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
 @Service

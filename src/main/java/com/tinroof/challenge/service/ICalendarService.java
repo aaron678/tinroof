@@ -3,7 +3,6 @@ package com.tinroof.challenge.service;
 import com.tinroof.challenge.model.Calendar;
 import org.springframework.http.ResponseEntity;
 
-import java.util.List;
 
 public interface ICalendarService {
 
