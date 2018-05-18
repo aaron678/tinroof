@@ -32,4 +32,4 @@ curl -X DELETE http://localhost:8080/people/1
 
 Create new Calendar
 
-curl -i -X POST -H "Content-Type:application/json" -d "{  \"name\" : \"testCal3\",  \"user\" : \"testUserc\" }" http://localhost:8086/calendar/calendar
+curl -i -X POST -H "Content-Type:application/json" -d "{  &#92;"name&#92;": &#92;"testCal3&#92;",  &#92;"user&#92;" : &#92;"testUserc&#92;" }" http://localhost:8086/calendar/calendar
