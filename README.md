@@ -2,7 +2,7 @@ Manual tests commands from command line
 
 GET all Calendars
 
-curl localhost:8080/calendar/calendar/
+curl localhost:8080/calendar/calendars/
 
 GET Calendar by id
 
